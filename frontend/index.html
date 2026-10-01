@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="PregBot - Your personalized AI pregnancy companion. Track your pregnancy, get personalized guidance, and stay informed every step of the way.">
+
+    <title>PregBot | Your Pregnancy. Understood.</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/landing.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="site-header">
+        <nav class="navbar container">
+
+            <a href="index.html" class="brand">
+                <span class="brand-mark">P</span>
+                <span class="brand-name">PregBot</span>
+            </a>
+
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#about">About</a>
+            </div>
+
+            <div class="nav-actions">
+                <a href="pages/login.html" class="nav-login">Login</a>
+                <a href="pages/register.html" class="btn btn-dark btn-small">
+                    Get Started
+                </a>
+            </div>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </nav>
+
+        <div class="mobile-nav" id="mobileNav">
+            <a href="#features">Features</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#about">About</a>
+            <a href="pages/login.html">Login</a>
+            <a href="pages/register.html" class="btn btn-dark">
+                Get Started
+            </a>
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                    <span class="eyebrow">
+                        YOUR PERSONAL PREGNANCY COMPANION
+                    </span>
+
+                    <h1>
+                        Your pregnancy.
+                        <span>Understood.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        PregBot brings personalized pregnancy guidance,
+                        intelligent tracking, wellness insights, and AI
+                        assistance together in one calm, simple space.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="pages/register.html" class="btn btn-dark btn-large">
+                            Start Your Journey
+                            <span>→</span>
+                        </a>
+
+                        <a href="#how-it-works" class="text-link">
+                            See how it works
+                            <span>↓</span>
+                        </a>
+                    </div>
+
+                    <div class="hero-trust">
+                        <div class="trust-item">
+                            <strong>40</strong>
+                            <span>Weeks tracked</span>
+                        </div>
+
+                        <div class="trust-divider"></div>
+
+                        <div class="trust-item">
+                            <strong>24/7</strong>
+                            <span>AI assistance</span>
+                        </div>
+
+                        <div class="trust-divider"></div>
+
+                        <div class="trust-item">
+                            <strong>1</strong>
+                            <span>Personalized journey</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Pregnancy Preview Card -->
+                <div class="hero-visual">
+
+                    <div class="floating-label label-top">
+                        <span class="status-dot"></span>
+                        Your journey is on track
+                    </div>
+
+                    <div class="pregnancy-card">
+
+                        <div class="card-top">
+                            <div>
+                                <span class="card-label">CURRENT WEEK</span>
+                                <h2>24</h2>
+                                <span class="week-text">of 40 weeks</span>
+                            </div>
+
+                            <div class="progress-circle">
+                                <span>60%</span>
+                            </div>
+                        </div>
+
+                        <div class="progress-bar">
+                            <span></span>
+                        </div>
+
+                        <div class="baby-preview">
+
+                            <div class="baby-icon">
+                                <span>✦</span>
+                            </div>
+
+                            <div class="baby-info">
+                                <span class="card-label">YOUR BABY</span>
+                                <h3>Growing beautifully</h3>
+                                <p>
+                                    Around the size of a cantaloupe.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="card-footer">
+                            <span>Trimester 2</span>
+                            <span>•</span>
+                            <span>16 weeks to go</span>
+                        </div>
+
+                    </div>
+
+                    <div class="floating-label label-bottom">
+                        <span class="sparkle">✦</span>
+                        Personalized for you
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Features -->
+        <section class="features-section section" id="features">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">EVERYTHING IN ONE PLACE</span>
+                    <h2>
+                    Built around
+                    <span>your journey.</span>
+                    </h2>
+                    <p>
+                        From your first week to the final countdown,
+                        PregBot brings everything you need into one
+                        personalized experience.
+                    </p>
+
+                </div>
+
+
+        <div class="visual-feature-grid">
+
+            <!-- PregBot -->
+            <article class="visual-feature-card feature-pregbot">
+
+                <div class="visual-feature-content">
+
+                    <span class="feature-number">01</span>
+
+                    <h3>Meet PregBot</h3>
+
+                    <p>
+                        Your intelligent pregnancy companion,
+                        ready to answer questions whenever you need.
+                    </p>
+
+                    <a href="pages/pregbot.html" class="feature-link">
+                        Explore PregBot →
+                    </a>
+
+                </div>
+
+
+                <div class="feature-visual ai-visual">
+
+                    <div class="ai-glow"></div>
+
+                    <div class="mini-chat">
+
+                        <div class="mini-chat-header">
+                            <div class="mini-avatar">P</div>
+
+                            <div>
+                                <strong>PregBot</strong>
+                                <span>Online</span>
+                            </div>
+
+                            <i></i>
+                        </div>
+
+                        <div class="mini-message user">
+                            Can I exercise during
+                            pregnancy?
+                        </div>
+
+                        <div class="mini-message bot">
+                            <span>✦</span>
+                            Gentle movement can be
+                            beneficial during pregnancy.
+                        </div>
+
+                        <div class="mini-input">
+                            Ask PregBot...
+                            <button>↑</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Pregnancy Tracker -->
+            <article class="visual-feature-card feature-tracker">
+
+                <div class="visual-feature-content">
+
+                    <span class="feature-number">02</span>
+
+                    <h3>Pregnancy Tracker</h3>
+
+                    <p>
+                        See how your baby grows and how
+                        your body changes week by week.
+                    </p>
+
+                    <a href="pages/pregnancy-tracker.html" class="feature-link">
+                        Explore tracker →
+                    </a>
+
+                </div>
+
+
+                <div class="feature-visual tracker-visual">
+
+                    <div class="week-badge">
+                        <span>WEEK</span>
+                        <strong>24</strong>
+                    </div>
+
+                    <div class="baby-orbit">
+
+                        <div class="orbit orbit-one"></div>
+                        <div class="orbit orbit-two"></div>
+
+                        <div class="baby-symbol">
+                            <span>✦</span>
+                        </div>
+
+                    </div>
+
+                    <div class="tracker-bottom-card">
+
+                        <div>
+                            <span>Baby development</span>
+                            <strong>60%</strong>
+                        </div>
+
+                        <div class="mini-progress">
+                            <span></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Wellness -->
+            <article class="visual-feature-card feature-wellness">
+
+                <div class="visual-feature-content">
+
+                    <span class="feature-number">03</span>
+
+                    <h3>Daily Wellness</h3>
+
+                    <p>
+                        Build healthy routines by keeping track
+                        of movement, sleep, mood, and hydration.
+                    </p>
+
+                    <a href="pages/wellness.html" class="feature-link">
+                        Explore wellness →
+                    </a>
+
+                </div>
+
+
+                <div class="feature-visual wellness-visual">
+
+                    <div class="wellness-circle">
+
+                        <div class="circle-inner">
+                            <strong>82</strong>
+                            <span>wellness</span>
+                        </div>
+
+                    </div>
+
+                    <div class="wellness-stats">
+
+                        <div>
+                            <span>Sleep</span>
+                            <strong>8h</strong>
+                        </div>
+
+                        <div>
+                            <span>Water</span>
+                            <strong>6/8</strong>
+                        </div>
+
+                        <div>
+                            <span>Movement</span>
+                            <strong>32m</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Nutrition -->
+            <article class="visual-feature-card feature-nutrition">
+
+                <div class="visual-feature-content">
+
+                    <span class="feature-number">04</span>
+
+                    <h3>Smart Nutrition</h3>
+
+                    <p>
+                        Discover pregnancy-friendly foods and
+                        personalized nutrition guidance.
+                    </p>
+
+                    <a href="pages/nutrition.html" class="feature-link">
+                        Explore nutrition →
+                    </a>
+
+                </div>
+
+
+                <div class="feature-visual nutrition-visual">
+
+                    <div class="nutrition-plate">
+
+                        <div class="food food-one">🥑</div>
+                        <div class="food food-two">🍓</div>
+                        <div class="food food-three">🥕</div>
+                        <div class="food food-four">🥦</div>
+
+                        <div class="plate-center">
+                            <span>Today's</span>
+                            <strong>Goodness</strong>
+                        </div>
+
+                    </div>
+
+                    <div class="nutrition-tag">
+                        ✦ Personalized for you
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Reminders -->
+            <article class="visual-feature-card feature-reminders">
+
+                <div class="visual-feature-content">
+
+                    <span class="feature-number">05</span>
+
+                    <h3>Smart Reminders</h3>
+
+                    <p>
+                        Never forget the little things that matter
+                        throughout your pregnancy.
+                    </p>
+
+                    <a href="pages/reminders.html" class="feature-link">
+                        Explore reminders →
+                    </a>
+
+                </div>
+
+
+                <div class="feature-visual reminder-visual">
+
+                    <div class="calendar-card">
+
+                        <div class="calendar-top">
+                            <span>OCTOBER</span>
+                            <strong>2026</strong>
+                        </div>
+
+                        <div class="calendar-days">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                            <span>S</span>
+                        </div>
+
+                        <div class="calendar-dates">
+                            <span>12</span>
+                            <span>13</span>
+                            <span class="active-date">14</span>
+                            <span>15</span>
+                            <span>16</span>
+                            <span>17</span>
+                            <span>18</span>
+                        </div>
+
+                        <div class="reminder-pill">
+                            <span>●</span>
+                            Doctor appointment
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Journal -->
+            <article class="visual-feature-card feature-journal">
+
+                <div class="visual-feature-content">
+
+                    <span class="feature-number">06</span>
+
+                    <h3>Your Journal</h3>
+
+                    <p>
+                        Save thoughts, milestones, memories,
+                        and special moments along the way.
+                    </p>
+
+                    <a href="pages/journal.html" class="feature-link">
+                        Explore journal →
+                    </a>
+
+                </div>
+
+
+                <div class="feature-visual journal-visual">
+
+                    <div class="journal-paper">
+
+                        <div class="paper-top">
+                            <span>MY JOURNEY</span>
+                            <span>♡</span>
+                        </div>
+
+                        <div class="paper-title">
+                            Today's little moment
+                        </div>
+
+                        <div class="paper-lines">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="paper-doodle">
+                            ♡
+                        </div>
+
+                    </div>
+
+                    <div class="journal-sticker">
+                        A memory worth keeping
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+        <!-- How It Works -->
+        <section class="journey-section section" id="how-it-works">
+
+            <div class="container">
+
+                <div class="section-heading centered">
+
+                    <span class="eyebrow">YOUR JOURNEY</span>
+
+                    <h2>
+                        One journey.
+                        <span>40 weeks.</span>
+                    </h2>
+
+                    <p>
+                        PregBot adapts to where you are in your pregnancy,
+                        giving you relevant information at every stage.
+                    </p>
+
+                </div>
+
+
+                <div class="journey-timeline">
+
+                    <div class="journey-line"></div>
+
+
+                    <div class="journey-item">
+
+                        <div class="journey-marker">
+                            01
+                        </div>
+
+                        <div class="journey-content">
+
+                            <span>WEEKS 01 — 13</span>
+
+                            <h3>First Trimester</h3>
+
+                            <p>
+                                Understand early pregnancy changes,
+                                nutrition basics, and important milestones.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="journey-item">
+
+                        <div class="journey-marker">
+                            02
+                        </div>
+
+                        <div class="journey-content">
+
+                            <span>WEEKS 14 — 27</span>
+
+                            <h3>Second Trimester</h3>
+
+                            <p>
+                                Follow your baby's rapid development and
+                                discover new wellness recommendations.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="journey-item">
+
+                        <div class="journey-marker">
+                            03
+                        </div>
+
+                        <div class="journey-content">
+
+                            <span>WEEKS 28 — 40</span>
+
+                            <h3>Third Trimester</h3>
+
+                            <p>
+                                Prepare for birth, monitor your wellbeing,
+                                and get ready to meet your little one.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- AI Section -->
+        <section class="ai-section section">
+
+            <div class="container">
+
+                <div class="ai-card">
+
+                    <div class="ai-content">
+
+                        <span class="eyebrow">
+                            INTELLIGENT SUPPORT
+                        </span>
+
+                        <h2>
+                            Questions don't
+                            have to wait.
+                        </h2>
+
+                        <p>
+                            Meet PregBot — your AI-powered pregnancy
+                            companion. Ask questions in natural language
+                            and get answers designed around your journey.
+                        </p>
+
+                        <a href="pages/pregbot.html" class="btn btn-light btn-large">
+                            Meet PregBot
+                            <span>→</span>
+                        </a>
+
+                    </div>
+
+
+                    <div class="chat-preview">
+
+                        <div class="chat-header">
+                            <div class="bot-avatar">P</div>
+
+                            <div>
+                                <strong>PregBot</strong>
+                                <span>AI Pregnancy Companion</span>
+                            </div>
+
+                            <span class="online-dot"></span>
+                        </div>
+
+
+                        <div class="chat-messages">
+
+                            <div class="chat-message user-message">
+                                Is it normal to feel more tired this week?
+                            </div>
+
+                            <div class="chat-message bot-message">
+                                <span class="message-label">PregBot</span>
+                                Fatigue can be common during pregnancy.
+                                Your body is working hard to support your
+                                growing baby. Let's look at some ways to
+                                support your energy today.
+                            </div>
+
+                            <div class="chat-input-preview">
+                                <span>Ask PregBot anything...</span>
+                                <button>↑</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- About -->
+        <section class="about-section section" id="about">
+
+            <div class="container about-grid">
+
+                <div class="about-number">
+                    <span>Preg</span>
+                    <strong>Bot</strong>
+                </div>
+
+                <div class="about-content">
+
+                    <span class="eyebrow">WHY PREGBOT</span>
+
+                    <h2>
+                        Information should feel
+                        <span>personal.</span>
+                    </h2>
+
+                    <p>
+                        Pregnancy can come with countless questions.
+                        PregBot brings pregnancy education, tracking,
+                        wellness tools, and intelligent assistance into
+                        one personalized experience.
+                    </p>
+
+                    <p>
+                        Your journey is unique. Your experience with
+                        PregBot should be too.
+                    </p>
+
+                    <a href="pages/register.html" class="text-link dark-link">
+                        Start your journey →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CTA -->
+        <section class="cta-section">
+
+            <div class="container">
+
+                <div class="cta-card">
+
+                    <span class="eyebrow">READY WHEN YOU ARE</span>
+
+                    <h2>
+                        Your journey starts
+                        <span>here.</span>
+                    </h2>
+
+                    <p>
+                        Create your personalized pregnancy profile
+                        and let PregBot help you through every week.
+                    </p>
+
+                    <a href="pages/register.html" class="btn btn-dark btn-large">
+                        Get Started
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <div class="container footer-main">
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="brand">
+                    <span class="brand-mark">P</span>
+                    <span class="brand-name">PregBot</span>
+                </a>
+
+                <p>
+                    Your personalized AI pregnancy companion.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <div>
+                    <span class="footer-title">PRODUCT</span>
+                    <a href="#features">Features</a>
+                    <a href="pages/pregbot.html">PregBot</a>
+                    <a href="pages/pregnancy-tracker.html">Tracker</a>
+                    <a href="pages/wellness.html">Wellness</a>
+                </div>
+
+                <div>
+                    <span class="footer-title">COMPANY</span>
+                    <a href="#about">About</a>
+                    <a href="#how-it-works">How It Works</a>
+                </div>
+
+                <div>
+                    <span class="footer-title">ACCOUNT</span>
+                    <a href="pages/login.html">Login</a>
+                    <a href="pages/register.html">Register</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="container footer-bottom">
+
+            <span>
+                © 2026 PregBot. All rights reserved.
+            </span>
+
+            <span>
+                Made for a more informed pregnancy journey.
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/landing.js"></script>
+
+</body>
+</html>
